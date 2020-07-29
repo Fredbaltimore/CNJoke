@@ -25,7 +25,7 @@ document.getElementById("p1").innerHTML = ("Generate your Chuck Norris Jokes Bel
 
 function imageSlides(){
     
-  let imageArray = ["/imgs/cn2.jpg", "/imgs/cn3.jpg", "/imgs/cn4.jpg", "/imgs/cn5.jpg"];
+  let imageArray = ["cn2.jpg", "cn3.jpg", "cn4.jpg", "cn5.jpg"];
 
  imageArray.forEach((item, index) => {setTimeout(()=> 
     {document.getElementById("slide").src = item
