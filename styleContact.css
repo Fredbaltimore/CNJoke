@@ -1,0 +1,41 @@
+html, body{
+   margin: 0;
+   background-color: midnightblue;
+   /* background: linear-gradient(90deg, rgba(3,10,11,1) 11%, rgba(0,16,255,1) 49%, rgba(10,10,10,1) 86%, rgba(2,0,36,1) 92%); */
+}
+header{
+    text-align: center;
+    border: 2px solid ghostwhite;
+    height: 40px;
+    color: rgb(229, 229, 240);
+    font-size: 23px;
+    background: midnightblue;
+}
+label{
+    color: rgb(239, 239, 245);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+header > span{
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+   
+}
+.contactForm{
+    margin: 2rem 2rem;
+    background-color: #536BA2;
+    height: 18rem;
+}
+#textarea{
+    vertical-align: top;
+    
+}
+#button {
+    background-color: rgb(153, 89, 5);
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 10%;
+}
+
