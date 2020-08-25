@@ -14,17 +14,17 @@ header {
   background: midnightblue;
 }
 label {
-  color: rgb(239, 239, 245);
+  color: rgb(204, 156, 0);
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  margin-top: 0.5em;
 }
 header > span {
   text-decoration: underline;
 }
 
 .form-container {
-  text-align: center;
   margin: 0;
 }
 
@@ -35,14 +35,20 @@ header > span {
 }
 #textarea {
   vertical-align: middle;
+  border-radius: 24px;
+  margin-bottom: 0;
 }
 #button {
   background-color: rgb(153, 89, 5);
   color: whitesmoke;
   font-size: 18px;
-  border-radius: 5%;
+  border-radius: 0;
 }
 
 .subscribe {
-  color: turquoise;
+  color: rgb(204, 156, 0);
+}
+
+input {
+  border-radius: 30px;
 }
