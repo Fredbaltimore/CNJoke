@@ -22,16 +22,21 @@ header > span {
   text-decoration: underline;
 }
 .contactForm {
-  margin: 2rem 2rem;
   background-color: #536ba2;
-  height: 18rem;
+  width: 100%;
+  display: grid;
+  justify-content: center;
 }
 #textarea {
-  vertical-align: top;
+  vertical-align: middle;
 }
 #button {
   background-color: rgb(153, 89, 5);
   color: whitesmoke;
   font-size: 18px;
-  border-radius: 10%;
+  border-radius: 5%;
+}
+
+.subscribe {
+  color: turquoise;
 }
