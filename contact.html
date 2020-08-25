@@ -8,23 +8,25 @@
   </head>
   <body>
     <header><span class="subscribe">Subscribe</span> to Our Newsletter</header>
-    <form action="GET" class="contactForm">
-      <label for="firstName" class="firstName">First Name</label>
-      <input type="text" name="firstName" id="firstName" />
-      <label for="lastName" class="lastName">Last Name</label>
-      <input type="text" name="lastName" id="lastName" /><br /><br />
+    <div class="form-container">
+      <form action="GET" class="contactForm">
+        <label for="firstName" class="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" />
+        <label for="lastName" class="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" /><br /><br />
 
-      <label for="email">Email</label>
-      <input type="email" name="email" id="emails" />
-      <br />
-      <br />
-      <label for="textarea" id="textareaLabel">Additional Comments...</label>
-      <br />
-      <textarea name="textarea" id="textarea" cols="35" rows="10"></textarea>
-      <br />
-      <label for="button"></label>
-      <input type="button" value="Submit" id="button" />
-    </form>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="emails" />
+        <br />
+        <br />
+        <label for="textarea" id="textareaLabel">Additional Comments...</label>
+        <br />
+        <textarea name="textarea" id="textarea" cols="35" rows="10"></textarea>
+        <br />
+        <label for="button"></label>
+        <input type="button" value="Submit" id="button" />
+      </form>
+    </div>
     <footer class="contactFooter"></footer>
   </body>
 </html>

@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  padding: 0;
   background-color: midnightblue;
   /* background: linear-gradient(90deg, rgba(3,10,11,1) 11%, rgba(0,16,255,1) 49%, rgba(10,10,10,1) 86%, rgba(2,0,36,1) 92%); */
 }
@@ -21,9 +22,14 @@ label {
 header > span {
   text-decoration: underline;
 }
+
+.form-container {
+  text-align: center;
+  margin: 0;
+}
+
 .contactForm {
   background-color: #536ba2;
-  width: 100%;
   display: grid;
   justify-content: center;
 }
