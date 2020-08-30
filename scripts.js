@@ -26,7 +26,6 @@ const imageSlides = () => {
   imageArray.forEach((item, index) => {
     setTimeout(() => {
       document.getElementById("slide").src = item;
-      console.log(item, index);
     }, 2000 * (index + 1));
   });
 };
